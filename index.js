@@ -19,5 +19,14 @@ function johnLennonFacts(facts) {
     i++;
     
   }
-  return newFacts;
+  return newFacts; // returns newFacts array when function is called
+}
+
+
+function iLoveTheBeatles(num) {
+  let emptyArray = [];
+  
+  do {
+    
+  }
 }

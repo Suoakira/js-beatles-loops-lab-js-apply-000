@@ -12,7 +12,7 @@ function theBeatlesPlay(musicians, instruments) {
 }
 
 function johnLennonFacts(facts) {
-  const newFacts = [];
+  let newFacts = [];
   let i = 0;
   while (i < facts.length) { // will stop running when we get to i < facts.length
     newFacts.push(`${facts[i]}!!!`); // pushs the new string to the newFacts array

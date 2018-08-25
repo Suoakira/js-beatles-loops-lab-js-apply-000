@@ -27,8 +27,8 @@ function iLoveTheBeatles(num) {
   let emptyArray = [];
   do {
     emptyArray.push("I love the Beatles!")
-    num++;
+    num++;                        // takes the paremeter, no need to delcare an variable counter i
     
   } while (num < 15)
-  return emptyArray;
+  return emptyArray;   // returns the array after the loop has ran
 }
